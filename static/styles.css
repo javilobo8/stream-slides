@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'Square';
+  src: url('/fonts/Square.ttf');
+}
+
+* {
+  overflow: hidden !important;
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: transparent;
+  font-family: 'Square';
+}
+
+#root {
+  padding: 30px;
+}
+
+.panel {
+  display: block;
+  position: relative;
+  left: 0px;
+  bottom: 0px;
+  background-repeat: no-repeat;
+  height: 91px;
+  width: 374px;
+}
+
+.text{
+  color: white;
+  position: absolute;
+  width: 300px;
+  left: 20px;
+  top: 26px;
+  font-size: 35px;
+}
